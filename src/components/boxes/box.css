@@ -1,0 +1,621 @@
+.box-coin{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    margin-top: 2rem;
+   
+}
+
+.box-head{
+    height: 2.5rem;
+    width: 70%;
+
+
+text-align: end;
+display: flex;
+border-bottom: 1px solid #E0E0E0;
+
+}
+
+.box-head h1{
+    font-family: IBM Plex Sans;
+    font-size: 1.2rem;
+    text-align: left;
+
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #8A8A8A;
+
+    
+}
+
+.box-head h2 {
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 2rem;
+color: #8A8A8A;
+
+}
+
+.box-head >h1 ,h2:hover{
+   color: black;
+   cursor: pointer;
+   font-weight: 500;
+}
+
+
+/* leftbox */
+
+
+.left-box{
+    width: 70%;
+  
+    margin-left: 14vw;
+
+}
+
+.box-1{
+
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+width: 48vw;
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: .4rem;
+  
+}
+.mid-text p,s{
+font-family: IBM Plex Sans;
+font-size: .9rem;
+font-weight: 500;
+line-height: 1.1rem;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.img1{
+   
+    height: 10rem;
+    width:100%;;
+   
+}
+
+.box1-text{
+    display: flex;
+flex-direction: column;
+    width:auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.box1-text h1{
+    font-family: IBM Plex Sans;
+font-size: 1rem;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.box1-text h2{
+    font-family: IBM Plex Sans;
+    width: 80%;
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.box1-text h3{
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C5C5C;    
+
+}
+
+
+.ava1{
+    height: 3rem;
+    width: 3rem;
+}
+
+.down-box h1{
+    font-family: IBM Plex Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+align-items: center;
+padding-left: 1rem;
+
+}
+
+
+.down-box h2{
+    font-family: IBM Plex Sans;
+font-size: 14px;
+font-weight: 500;
+
+position: absolute;
+margin-left: 30vw;
+
+text-align: right;
+
+}
+
+.mid-text h1{
+    font-family: IBM Plex Sans;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.mid-text h2{
+    font-family: IBM Plex Sans;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    letter-spacing: 0em;
+    
+    text-align: right;
+    
+
+}
+
+
+.viewWeb-button{
+ width: 97%;
+ background-color: #FFFFFF;
+height: 38px;
+top: 1956px;
+left: 220px;
+border-radius: 8px;
+border: 0.7px solid #A9AEB8;
+
+font-family: IBM Plex Sans;
+font-size: 13px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #E56135;
+margin-bottom: 1rem;
+
+
+
+}
+
+.name{
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+margin: .5rem ;
+
+}
+
+.button2{
+    color: #02B875;
+}
+
+
+.shareButton{
+ width: 2.7rem;
+height:2.2rem;
+align-self: flex-end;
+margin-left: 2rem;
+border-radius: 4px;
+background-color: #F1F3F5;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+
+.shareButton h3{
+font-family: IBM Plex Sans;
+font-size: 1rem;
+font-weight: 400;
+
+letter-spacing: 0em;
+color: #212529;
+margin: .5rem;
+
+}
+
+
+.type-box{
+    display: flex;
+}
+
+.type-box h3{
+font-family: IBM Plex Sans;
+font-size: 1rem;
+font-weight: 500;
+margin-left: .5rem;
+
+
+text-align: left;
+color: #212529;
+
+}
+
+
+.location{
+  
+  
+    margin-left: 3rem;
+  
+    
+
+}
+
+
+
+.main-coin{
+    height: 2.5rem;
+    width: 75vw;
+  margin-left: 14vw;
+
+margin-top: 3rem ;
+display: flex;
+border-bottom: 1px solid #E0E0E0;
+
+}
+
+.box13 h2{
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-weight: 500;
+  margin-left: 1rem;
+  margin-top: .2rem;
+  color: #212529;
+ 
+
+   
+    
+}
+
+
+.viewsBox{
+    display: flex;
+    margin-left: 9rem;
+    width: auto;
+    padding-top: .5rem;
+}
+.viewsBox h3{
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.more-options{
+    margin-left: 2rem;
+    width: 28px;
+    height: 28px;
+    top: 1880px;
+    left: 867px;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    
+    
+}
+
+
+.more-options:hover{
+    background-color: #BFBFC0;
+}
+
+.left-buttons{
+    display: flex;
+}
+
+
+.write-post-button{
+
+    width: 8.3rem;
+    height: 2.2rem;
+    background-color: #EDEEF0;
+    border-radius: 4px;
+    
+    
+    font-family: IBM Plex Sans;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    border: transparent;
+    
+      }
+    
+      .join-grup-button{
+        width: 8.3rem;
+    height: 2.2rem;
+    background-color: #2F6CE5;
+    border-radius: 4px;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-family: IBM Plex Sans;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    border: transparent;
+      }
+
+      .down-name h1{
+        white-space: nowrap;
+        font-size:  1.3rem;
+      }
+
+      .mobile-views h3{
+        visibility: collapse;
+      }
+
+
+.right-box{
+
+  margin-left: 4rem;
+}
+
+
+.rightBox-input{
+width: 15rem;
+
+border-bottom: .4px solid #B8B8B8;
+
+      }
+
+
+      .rightBox-input input{
+        width: 15rem;
+        
+        border: transparent ;
+       outline: none;
+    font-family: IBM Plex Sans;
+font-size: .9rem;
+font-weight: 400;
+line-height: 1.1rem;
+letter-spacing: 0em;
+text-align: left;
+
+        
+              }
+
+
+
+
+
+
+              .recommendation-container {
+                width: 15rem;
+              
+                display: flex;
+                
+               
+                
+                padding: 16px;
+              }
+              
+              .avatar-container {
+                display: flex;
+                width: 100%;
+               
+              }
+              
+              .avatar {
+                height: 2rem;
+                width: 2rem;
+                border-radius: 50%;
+              }
+              
+            
+              
+              .user-name {
+                font-family: IBM Plex Sans;
+                font-size: .9rem;
+                font-weight: 400;
+        
+           text-align: center;
+           margin-top: .2rem;
+                letter-spacing: 0em;
+                
+                
+              }
+              
+              .follow-button {
+                width: 4rem;
+                height: 1.5rem;
+          left: 0;
+          justify-content: right;
+               
+                border-radius: 14px;
+                border: transparent;
+                background-color: #e5e2e2;
+                cursor: pointer;
+
+
+
+font-family: IBM Plex Sans;
+font-size: .6rem;
+font-weight: 400;
+text-align: center;
+
+              }
+              
+
+              .info-text{
+
+
+ font-family: IBM Plex Sans;
+font-size: .8rem;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color: #B8B8B8;
+
+              }
+
+
+.recomend-heading{
+
+
+font-family: IBM Plex Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.1em;
+text-align: left;
+
+              }
+
+
+
+.mobile-filter-button{
+    visibility: collapse;
+    width: 100px;
+    height: 30px;
+   border-radius: 4px;
+  
+    
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:826px) {
+
+    .box-head{
+        width: 100vw;
+       margin-left: -5rem;
+      
+    }
+    .box-head h1{
+      text-align: left;
+      white-space: nowrap;
+      margin-left: 1rem;
+    }
+
+    .left-box{
+        margin-left: 0;
+       
+
+    }
+
+    .shareButton{
+        position: relative;
+        right: 2rem;
+       
+        min-width: 4rem;
+    }
+ .box-1{
+    width: 100vw;
+ }
+
+ .right-box{
+    visibility: hidden;
+ }
+ .box-head h2{
+    visibility: hidden;
+ }
+ .left-buttons{
+    visibility: hidden;
+ }
+ .mobile-filter-button{
+    visibility: inherit;
+border: transparent;
+width: 9rem;
+height: 30px;
+background-color: #F1F3F5;
+margin-left: -10rem;
+margin-top: -.5rem;
+color: #212529;
+font-size: 1.2rem;
+
+
+
+ }
+
+ .mobile-views h3{
+    visibility: visible;
+ }
+
+ .tt h4{
+    font-size: 15px;
+    white-space: nowrap;
+ }
+
+ .viewsBox{
+    visibility: hidden;
+ }
+
+ .down-name img{
+    margin-top: 1rem;
+ }
+
+ .mobile-views h3{
+    margin-top: -1rem;
+
+   
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.options-dropdown{
+    position: absolute;
+  
+    right: 29rem;
+    margin-top: 1.2rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+

@@ -1,0 +1,105 @@
+.header-coin{
+    width: 100vw;
+
+  background-color: white;
+
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-coin h1{
+display: flex;
+justify-content:center;
+align-items: center;
+    font-size: 1rem;
+    font-family: IBM Plex Sans;
+}
+
+.input-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; /* Adjust the position of the icon as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; /* Adjust the color of the icon as needed */
+  height: 1.4rem;
+  width: 1.4rem;
+}
+  
+  .header-in {
+    padding-left: 30px; /* Adjust the padding to make space for the icon */
+    width: 200px; /* Adjust the width of the input as needed */
+  }
+  .d-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #555;
+    margin-top: .5rem;
+    cursor: pointer;
+  }
+
+  .z-div{
+    justify-content: center;
+    z-index: 1000;
+    position:fixed;
+    margin:-5rem 0 0 10vw;
+  
+  }
+
+  .login-div{
+    margin: -2rem 0 0 7rem;
+  }
+
+.header-img{
+    width: 10rem;
+    height: 1.5rem;
+    
+}
+
+.logo{
+    padding-left: 4rem;
+}
+
+
+.header-input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+.header-in{
+    width: 22rem;
+   height: 2.5rem;
+    border-radius: 21px;
+    background-color: #F2F2F2;
+
+font-family: IBM Plex Sans;
+font-size: .9rem;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+
+    
+}
+
+
+.cross{
+  margin-left: 100%;
+  color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 826px) {
+  .header-coin {
+    visibility: hidden; /* Hide on screens with a maximum width of 767 pixels (typical mobile devices) */
+  }
+  .z-div{
+    margin-left: 0;
+  }
+}
